@@ -191,3 +191,62 @@ section.hero-section {
 section.our-clients {
     margin-top: 100px;
 }
+
+bg-color {
+    color: #4caf4f;
+}
+
+.helping-local-content h1 {
+    font-size: 40px;
+    color: #4d4d4d;
+    font-family: inter;
+}
+
+.helping-local-content p {
+    color: var(--text-gray-900, #18191F);
+    font-family: Inter;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.helping-img-and-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 22px;
+    margin-top: 40px;
+}
+
+.helping-img-and-content img {
+    height: 32px;
+}
+
+.helping-name h1 {
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.helping-name p {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.helping-name {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.helping-local {
+    background: #F5F7FA;
+}
+
+section.helping-local {
+    padding: 35px;
+}
