@@ -116,9 +116,9 @@ section.hero-section {
     color: var(--neutral-grey, #717171);
     text-align: center;
     font-family: Inter;
-    line-height: 8.013px; /* 150% */
     font-size: 18px;
 }
+
 
 .our-clients-image {
     display: flex;
@@ -156,6 +156,38 @@ section.hero-section {
     border-radius: 2.671px;
     background: var(--neutral-white, #FFF);
     box-shadow: 0px 0.66773px 1.33547px 0px rgba(171, 190, 209, 0.20);
-    padding: 34px;
-    margin: 25px;
+    padding: 36px 27px;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.hero-2-content h1 {
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 40px;
+}
+
+.hero-2-content p {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.hero-2-img img {
+    height: 355px;
+    width: 340px;
+}
+
+section.our-clients {
+    margin-top: 100px;
 }
