@@ -250,3 +250,139 @@ section.helping-local {
 section.helping-local {
     padding: 35px;
 }
+
+.tim-smith-content p {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.tim-smith-content h1 {
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tim-smith-content h3 {
+    font-size: 16px;
+    color: var(--neutral-l-grey, #89939E);
+    font-family: Inter;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.tim-smith-logo-images {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.tim-smith-image img {
+    height: 249px;
+    width: 299px;
+}
+
+.tim-smith-content {
+    margin-left: -82px;
+}
+
+section.tim-smith {
+    background: #f2f5f9;
+    padding: 39px;
+}
+
+button.tim-smith-button {
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    font-weight: 600;
+    background: #fff0;
+    border: none;
+    font-size: 17px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: -18px;
+}
+
+.background-image1{
+    background-image: url(Assets/images/image\ 18.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 80px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.background-image1 p {
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bg-img-box {
+    display: flex;
+    padding: 35px 52px;
+    flex-direction: column;
+    margin: 60px -55px;
+    align-items: center;
+    gap: 5.342px;
+    border-radius: 2.671px;
+    background: var(--neutral-silver, #F5F7FA);
+    box-shadow: 0px 2.67093px 5.34186px 0px rgba(171, 190, 209, 0.40);
+    position: absolute;
+}
+
+.margin-t-40{
+    margin-top: 40px;
+}
+
+.background-image2{
+    background-image: url(Assets/images/image\ 19.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 80px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.background-image2 p {
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.background-image3{
+    background-image: url(Assets/images/image\ 20.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 80px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.background-image3 p {
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.libero-title h1 {
+    color: var(--neutral-black, #263238);
+    text-align: center;
+    font-family: Inter;
+    font-size: 70px;
+}
+
+.libero-title {
+    display: flex;
+    margin: auto;
+}
