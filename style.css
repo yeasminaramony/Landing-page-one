@@ -375,14 +375,99 @@ button.tim-smith-button {
     font-weight: 600;
 }
 
-.libero-title h1 {
+.olibero-title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.olibero-title h1 {
     color: var(--neutral-black, #263238);
     text-align: center;
     font-family: Inter;
     font-size: 70px;
 }
 
-.libero-title {
+button.libero-button {
     display: flex;
     margin: auto;
+    margin-top: 40px;
+}
+
+section.libero-sec {
+    background: #F5F7FA;
+    margin-top: 145px;
+    padding: 40px;
+}
+
+button.libero-button img {
+    margin-top: 5px;
+}
+
+footer.footer-bg-color {
+    background: #263238;
+    padding: 70px;
+}
+
+.col-20{
+    width: 20%;
+}
+
+.copyright {
+    color: var(--neutral-silver, #F5F7FA);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 21px;
+    line-height: 30px;
+}
+
+.icons {
+    display: flex;
+    gap: 12px;
+    margin-left: -3px;
+}
+
+.footer-menu h1 {
+    color: var(--neutral-white, #FFF);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+.footer-menu h3 {
+    color: var(--neutral-silver, #F5F7FA);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.footer-form h1 {
+    color: var(--neutral-white, #FFF);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+input#name {
+    padding: 15px 24px;
+    border-radius: 5px;
+    opacity: 0.2;
+    background: var(--default-white, #fff);
+    border: none;
+    margin-bottom: 70px;
+}
+
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: var(--text-gray-300, #4b4b4b);
+font-family: Inter;
+font-size: 16px;
 }
